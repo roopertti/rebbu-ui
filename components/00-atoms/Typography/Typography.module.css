@@ -1,0 +1,23 @@
+.headingOne {
+  font-size: 1.5rem;
+  line-height: 1.96rem;
+  font-family: var(--main-font);
+}
+
+.headingTwo {
+  font-size: 1.125rem;
+  line-height: 1.47rem;
+  font-family: var(--main-font);
+}
+
+.headingThree {
+  font-size: 0.875rem;
+  line-height: 1.161875rem;
+  font-family: var(--main-font);
+}
+
+.normalText {
+  font-family: var(--secondary-font);
+  font-size: 0.75rem;
+  line-height: 1.02125rem;
+}

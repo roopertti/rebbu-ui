@@ -1,0 +1,11 @@
+.linkButton {
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--main-font);
+  border-radius: 30px;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.875rem;
+  padding: 0.8rem 3rem;
+}

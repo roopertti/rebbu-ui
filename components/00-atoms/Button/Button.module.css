@@ -1,0 +1,22 @@
+.button {
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--main-font);
+  border-radius: 30px;
+  border: none;
+}
+
+.buttonLg {
+  font-size: 0.875rem;
+  padding: 0.8rem 3rem;
+}
+
+.buttonMd {
+  font-size: 0.75rem;
+  padding: 0.6rem 2.2rem;
+}
+
+.buttonSm {
+  font-size: 0.625rem;
+  padding: 0.4rem 1.6rem;
+}
