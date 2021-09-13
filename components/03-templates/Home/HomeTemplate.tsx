@@ -1,8 +1,9 @@
 import { FC } from 'react'
 
 import Logo from '../../00-atoms/Logo'
-import Intro, { IntroProps } from '../../01-molecules/Intro'
+import Intro, { IntroProps } from '../../02-organisms/Intro'
 import styles from './HomeTemplate.module.css'
+import Layout from '../../02-organisms/Layout'
 
 interface HomeTemplateProps {
   introProps: IntroProps
@@ -10,11 +11,16 @@ interface HomeTemplateProps {
 
 export const HomeTemplate: FC<HomeTemplateProps> = ({ introProps }) => {
   return (
-    <section>
-      <header className={styles.logoHeader}>
-        <Logo />
-      </header>
-      <Intro {...introProps} />
-    </section>
+    <Layout
+      renderHeader={() => (
+        <header className={styles.logoHeader}>
+          <Logo />
+        </header>
+      )}
+    >
+      <section>
+        <Intro {...introProps} />
+      </section>
+    </Layout>
   )
 }

@@ -2,4 +2,11 @@
   --main-font: 'Chewy', cursive;
   --secondary-font: 'Open Sans', sans-serif;
   --color-primary: #f35b04;
+  --color-secondary: #f18701;
+  --color-info: #1e96fc;
+  --color-success: #59cd90;
+}
+
+* {
+  box-sizing: border-box;
 }

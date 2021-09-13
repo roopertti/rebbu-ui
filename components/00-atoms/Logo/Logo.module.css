@@ -4,3 +4,21 @@
   font-size: 1.25rem;
   text-decoration: none;
 }
+
+@media screen and (min-width: 400px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo {
+    font-size: 2rem;
+  }
+}

@@ -1,7 +1,7 @@
 import { Meta } from '@storybook/react'
 
 import HomeTemplate from '.'
-import { IntroProps } from '../../01-molecules/Intro'
+import { IntroProps } from '../../02-organisms/Intro'
 
 export default {
   title: 'Templates/HomeTemplate',

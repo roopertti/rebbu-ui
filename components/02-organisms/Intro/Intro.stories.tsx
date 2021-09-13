@@ -3,7 +3,7 @@ import { Meta } from '@storybook/react'
 import Intro from '.'
 
 export default {
-  title: 'Molecules/Intro',
+  title: 'Organisms/Intro',
   component: Intro
 } as Meta
 

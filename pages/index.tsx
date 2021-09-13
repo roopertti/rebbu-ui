@@ -8,9 +8,7 @@ const Home: NextPage = () => {
       introProps={{
         title: 'Stop worrying about packing, leave it to rebbu!',
         description:
-          'With rebbu you can create packlists for your trips. Rebbu saves your items, packlists and full packing history!',
-        loginBtnText: 'Start packing!',
-        loginLink: '/'
+          'With rebbu you can create packlists for your trips. Rebbu saves your items, packlists and full packing history!'
       }}
     />
   )
